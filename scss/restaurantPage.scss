@@ -1,0 +1,33 @@
+#maincontent {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100vh auto auto auto;
+  grid-template-areas:
+          "map"
+          "restaurant"
+          "reviews"
+          "footer";
+}
+
+#map-container {
+  height: 100%;
+  position: sticky;
+  top: 131px;
+}
+
+@media (min-width: 768px) {
+  #maincontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+            "restaurant map"
+            "reviews empty";
+  }
+
+  #map-container {
+    height: calc(100vh - 80px);
+    position: sticky;
+    top: 80px;
+  }
+}
