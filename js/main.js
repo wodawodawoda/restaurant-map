@@ -1,8 +1,19 @@
+// import RegisterServiceWorker from './RegisterServiceWorker'
+
 let restaurants,
   neighborhoods,
   cuisines
 var newMap
 var markers = []
+
+// /**
+// 	* Register service worker
+// 	*/
+// navigator.serviceWorker.register('/serviceWorker.js')
+// 		.then(res => console.log('Registeration worked'))
+// 		.catch(console.error)
+
+
 
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
