@@ -16,7 +16,7 @@ nav h1 a {
   text-transform: uppercase; }
 
 #breadcrumb {
-  padding: 10px 40px 16px;
+  padding: 15px 0;
   list-style: none;
   background-color: rgba(238, 238, 238, 0.8);
   font-size: 17px;
@@ -25,6 +25,8 @@ nav h1 a {
 /* Display list items side by side */
 #breadcrumb li {
   display: inline; }
+  #breadcrumb li :first-child {
+    margin-left: 20px; }
 
 /* Add a slash symbol (/) before/behind each list item */
 #breadcrumb li + li:before {
@@ -44,4 +46,5 @@ nav h1 a {
 
 @media (min-width: 768px) {
   #breadcrumb {
-    width: 100%; } }
+    position: absolute;
+    width: 50%; } }

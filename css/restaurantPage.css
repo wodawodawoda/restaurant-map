@@ -1,11 +1,11 @@
 #maincontent {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 100vh auto auto auto;
+  grid-template-rows: 50vh auto auto auto;
   grid-template-areas: "map" "restaurant" "reviews" "footer"; }
 
 #map-container {
-  height: 100%;
+  height: calc(100vh - 138px);
   position: sticky;
   top: 131px; }
 
