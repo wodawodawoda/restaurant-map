@@ -6,12 +6,10 @@ let restaurants,
 var newMap
 var markers = []
 
-// /**
-// 	* Register service worker
-// 	*/
-// navigator.serviceWorker.register('/serviceWorker.js')
-// 		.then(res => console.log('Registeration worked'))
-// 		.catch(console.error)
+/**
+	* Register service worker
+	*/
+// RegisterServiceWorker()
 
 
 
