@@ -28,8 +28,11 @@
   margin: 10px;
   padding: 0 10px;
   width: 200px;
-
   color: black;
+}
+
+select:focus {
+  background: yellow;
 }
 
 @media (min-width: 576px) {

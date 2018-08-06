@@ -26,6 +26,9 @@
   width: 200px;
   color: black; }
 
+select:focus {
+  background: yellow; }
+
 @media (min-width: 576px) {
   .filter-options h2 {
     width: initial; } }
