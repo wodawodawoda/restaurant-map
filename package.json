@@ -1,22 +1,12 @@
 {
   "name": "restaurant-map",
   "version": "1.0.0",
-  "description": "--- #### _Three Stage Course Material Project - Restaurant Reviews_",
-  "main": "index.js",
+  "description": "Restaurant map app",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/udacity/mws-restaurant-stage-1.git"
+    "start": "python -m SimpleHTTPServer 8000"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/udacity/mws-restaurant-stage-1/issues"
-  },
-  "homepage": "https://github.com/udacity/mws-restaurant-stage-1#readme",
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.26.3",
